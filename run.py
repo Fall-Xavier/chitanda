@@ -413,8 +413,8 @@ def crack(user, pwx):
 			else:continue
 		loop+=1
 	except Exception as e:
-		print(e)
 		time.sleep(32)
 		
 if __name__=="__main__":
+	os.system("git pull")
 	menu()
